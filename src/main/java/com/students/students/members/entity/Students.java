@@ -18,9 +18,9 @@ public class Students {
     private LocalDate dob;
     private Integer age;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "fk_teachers_id")
-    private Teachers teachers;
+//    @OneToOne(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "teachers_id")
+//    private Teachers teachers;
 
     public Students(String name, String email, LocalDate dob, Integer age) {
         this.name = name;
