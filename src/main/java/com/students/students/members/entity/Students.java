@@ -11,6 +11,7 @@ import java.time.LocalDate;
 @EnableAutoConfiguration
 public class Students {
     @Id
+    @GeneratedValue
     private Long id;
     private String name;
 

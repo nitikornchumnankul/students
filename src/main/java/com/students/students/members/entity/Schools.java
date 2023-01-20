@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 @EnableAutoConfiguration
 public class Schools {
     @Id
+    @GeneratedValue
     private Long id;
     private String name;
     private String address;

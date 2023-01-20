@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 @EnableAutoConfiguration
 public class  Exam {
     @Id
+    @GeneratedValue
     private Long id;
 
     @OneToOne(cascade = CascadeType.ALL)
